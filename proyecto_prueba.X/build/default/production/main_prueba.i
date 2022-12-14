@@ -2665,5 +2665,9 @@ void main(void) {
     _delay((unsigned long)((500)*(20000000/4000.0)));
    PORTD = 0x00;
       _delay((unsigned long)((500)*(20000000/4000.0)));
+      PORTD = 0xFF;
+    _delay((unsigned long)((500)*(20000000/4000.0)));
+   PORTD = 0x00;
+      _delay((unsigned long)((500)*(20000000/4000.0)));
     }
 }

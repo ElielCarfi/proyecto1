@@ -37,5 +37,9 @@ void main(void) {
     __delay_ms(500);
    PORTD = 0x00;
       __delay_ms(500);
+      PORTD = 0xFF;
+    __delay_ms(500);
+   PORTD = 0x00;
+      __delay_ms(500);
     }
 }
