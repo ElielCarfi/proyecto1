@@ -3,7 +3,7 @@ __S1 73 0 ABS 0
 __S3 0 0 ABS 0
 __Hintentry 0 0 CODE 0
 __Lintentry 0 0 CODE 0
-_main 7D4 0 CODE 0
+_main 7B3 0 CODE 0
 ___sp 0 0 STACK 2
 btemp 7E 0 ABS 0
 start 0 0 CODE 0
@@ -90,25 +90,29 @@ __pcstackCOMMON 70 0 COMMON 1
 start_initialization 7FC 0 CODE 0
 __Hmaintext 0 0 ABS 0
 __Lmaintext 0 0 ABS 0
-__pmaintext 7D4 0 CODE 0
+__pmaintext 7B3 0 CODE 0
 __initialization 7FC 0 CODE 0
 %segments
 reset_vec 0 5 CODE 0 0
 cinit FF8 FFF CODE FF8 0
 cstackCOMMON 70 72 COMMON 70 1
-maintext FA8 FF7 CODE FA8 0
+maintext F66 FF7 CODE F66 0
 %locals
-dist/default/production\proyecto_prueba_.X.production.o
-C:\Users\eliel\AppData\Local\Temp\xcAs944.s
+dist/default/production\proyecto_prueba.X.production.o
+C:\Users\eliel\AppData\Local\Temp\xcAs594.s
 428 7FC 0 CODE 0
 431 7FC 0 CODE 0
 437 7FC 0 CODE 0
 439 7FC 0 CODE 0
 440 7FD 0 CODE 0
 main_prueba.c
-28 7D4 0 CODE 0
-29 7D4 0 CODE 0
-32 7D7 0 CODE 0
-33 7DB 0 CODE 0
-34 7E8 0 CODE 0
-35 7EB 0 CODE 0
+28 7B3 0 CODE 0
+29 7B3 0 CODE 0
+32 7B6 0 CODE 0
+33 7BA 0 CODE 0
+34 7C7 0 CODE 0
+35 7CA 0 CODE 0
+36 7D7 0 CODE 0
+37 7DB 0 CODE 0
+38 7E8 0 CODE 0
+39 7EB 0 CODE 0

@@ -11,14 +11,14 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\eliel\AppData\Local\Temp\xcAs944.o
+$C:\Users\eliel\AppData\Local\Temp\xcAs594.o
 idloc IDLOC 5 2000 2000 4 2 1
 end_init CODE 0 0 0 3 2 1
 config CONFIG 4 2007 2007 2 2 1
-$dist/default/production\proyecto_prueba_.X.production.o
+$dist/default/production\proyecto_prueba.X.production.o
 cinit CODE 0 7FC 7FC 4 2 1
 idloc IDLOC 5 2000 2000 4 2 1
-maintext CODE 0 7D4 7D4 28 2 1
+maintext CODE 0 7B3 7B3 49 2 1
 cstackCOMMON COMMON 1 70 70 3 1 1
 config CONFIG 4 2007 2007 2 2 1
 # %UNUSED Section
@@ -35,11 +35,11 @@ BANK0 20-6F 1
 BANK1 A0-EF 1
 BANK2 110-16F 1
 BANK3 190-1EF 1
-CONST 3-7D3 2
+CONST 3-7B2 2
 CONST 800-1FFF 2
-ENTRY 3-7D3 2
+ENTRY 3-7B2 2
 ENTRY 800-1FFF 2
-CODE 3-7D3 2
+CODE 3-7B2 2
 CODE 800-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -47,9 +47,9 @@ SFR2 100-10F 1
 SFR3 180-18F 1
 COMMON 73-7D 1
 EEDATA 2100-21FF 2
-STRCODE 3-7D3 2
+STRCODE 3-7B2 2
 STRCODE 800-1FFF 2
-STRING 3-7D3 2
+STRING 3-7B2 2
 STRING 800-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -64,18 +64,22 @@ STRING 800-1FFF 2
 # are in ascending order of addresses.
 # All other numeric values are in decimal.
 %LINETAB
-$dist/default/production\proyecto_prueba_.X.production.o
-7FC cinit CODE >428:C:\Users\eliel\AppData\Local\Temp\xcAs944.s
-7FC cinit CODE >431:C:\Users\eliel\AppData\Local\Temp\xcAs944.s
-7FC cinit CODE >437:C:\Users\eliel\AppData\Local\Temp\xcAs944.s
-7FC cinit CODE >439:C:\Users\eliel\AppData\Local\Temp\xcAs944.s
-7FD cinit CODE >440:C:\Users\eliel\AppData\Local\Temp\xcAs944.s
-7D4 maintext CODE >28:D:\proyecto1\proyecto_prueba .X\main_prueba.c
-7D4 maintext CODE >29:D:\proyecto1\proyecto_prueba .X\main_prueba.c
-7D7 maintext CODE >32:D:\proyecto1\proyecto_prueba .X\main_prueba.c
-7DB maintext CODE >33:D:\proyecto1\proyecto_prueba .X\main_prueba.c
-7E8 maintext CODE >34:D:\proyecto1\proyecto_prueba .X\main_prueba.c
-7EB maintext CODE >35:D:\proyecto1\proyecto_prueba .X\main_prueba.c
+$dist/default/production\proyecto_prueba.X.production.o
+7FC cinit CODE >428:C:\Users\eliel\AppData\Local\Temp\xcAs594.s
+7FC cinit CODE >431:C:\Users\eliel\AppData\Local\Temp\xcAs594.s
+7FC cinit CODE >437:C:\Users\eliel\AppData\Local\Temp\xcAs594.s
+7FC cinit CODE >439:C:\Users\eliel\AppData\Local\Temp\xcAs594.s
+7FD cinit CODE >440:C:\Users\eliel\AppData\Local\Temp\xcAs594.s
+7B3 maintext CODE >28:D:\proyecto1\proyecto_prueba.X\main_prueba.c
+7B3 maintext CODE >29:D:\proyecto1\proyecto_prueba.X\main_prueba.c
+7B6 maintext CODE >32:D:\proyecto1\proyecto_prueba.X\main_prueba.c
+7BA maintext CODE >33:D:\proyecto1\proyecto_prueba.X\main_prueba.c
+7C7 maintext CODE >34:D:\proyecto1\proyecto_prueba.X\main_prueba.c
+7CA maintext CODE >35:D:\proyecto1\proyecto_prueba.X\main_prueba.c
+7D7 maintext CODE >36:D:\proyecto1\proyecto_prueba.X\main_prueba.c
+7DB maintext CODE >37:D:\proyecto1\proyecto_prueba.X\main_prueba.c
+7E8 maintext CODE >38:D:\proyecto1\proyecto_prueba.X\main_prueba.c
+7EB maintext CODE >39:D:\proyecto1\proyecto_prueba.X\main_prueba.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -88,7 +92,7 @@ $dist/default/production\proyecto_prueba_.X.production.o
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-___latbits 2 0 ABS 0 - dist/default/production\proyecto_prueba_.X.production.o
+___latbits 2 0 ABS 0 - dist/default/production\proyecto_prueba.X.production.o
 __Hspace_0 800 0 ABS 0 - -
 __Hspace_1 73 0 ABS 0 - -
 __Hspace_2 0 0 ABS 0 - -
@@ -96,25 +100,25 @@ __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 4010 0 ABS 0 - -
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 __Hstrings 0 0 ABS 0 strings -
-___sp 0 0 STACK 2 stack C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-_main FA8 0 CODE 0 maintext dist/default/production\proyecto_prueba_.X.production.o
-btemp 7E 0 ABS 0 - dist/default/production\proyecto_prueba_.X.production.o
-start 0 0 CODE 0 init C:\Users\eliel\AppData\Local\Temp\xcAs944.o
+___sp 0 0 STACK 2 stack C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+_main F66 0 CODE 0 maintext dist/default/production\proyecto_prueba.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\proyecto_prueba.X.production.o
+start 0 0 CODE 0 init C:\Users\eliel\AppData\Local\Temp\xcAs594.o
 __Hpowerup 0 0 CODE 0 powerup -
-intlevel0 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-wtemp0 7E 0 ABS 0 - dist/default/production\proyecto_prueba_.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+wtemp0 7E 0 ABS 0 - dist/default/production\proyecto_prueba.X.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 __Hclrtext 0 0 ABS 0 clrtext -
 __Lmaintext 0 0 ABS 0 maintext -
-___stackhi 0 0 ABS 0 - C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-___stacklo 0 0 ABS 0 - C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-start_initialization FF8 0 CODE 0 cinit dist/default/production\proyecto_prueba_.X.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\eliel\AppData\Local\Temp\xcAs944.o
+___stackhi 0 0 ABS 0 - C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+___stacklo 0 0 ABS 0 - C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+start_initialization FF8 0 CODE 0 cinit dist/default/production\proyecto_prueba.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\eliel\AppData\Local\Temp\xcAs594.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -153,8 +157,8 @@ __S0 800 0 ABS 0 - -
 __S1 73 0 ABS 0 - -
 __S3 0 0 ABS 0 - -
 __Lintentry 0 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec C:\Users\eliel\AppData\Local\Temp\xcAs944.o
-__pmaintext FA8 0 CODE 0 maintext dist/default/production\proyecto_prueba_.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\eliel\AppData\Local\Temp\xcAs594.o
+__pmaintext F66 0 CODE 0 maintext dist/default/production\proyecto_prueba.X.production.o
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
 __Lspace_0 0 0 ABS 0 - -
@@ -164,24 +168,24 @@ __Lspace_3 0 0 ABS 0 - -
 __Lspace_4 0 0 ABS 0 - -
 __Lend_init 0 0 CODE 0 end_init -
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-end_of_initialization FF8 0 CODE 0 cinit dist/default/production\proyecto_prueba_.X.production.o
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\proyecto_prueba.X.production.o
 __Hintentry 0 0 CODE 0 intentry -
 __Lstrings 0 0 ABS 0 strings -
 __Hreset_vec 0 0 CODE 0 reset_vec -
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 __Lreset_vec 0 0 CODE 0 reset_vec -
-__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\proyecto_prueba_.X.production.o
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\proyecto_prueba.X.production.o
 __Lfunctab 0 0 ENTRY 0 functab -
 __Lclrtext 0 0 ABS 0 clrtext -
-__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\proyecto_prueba_.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\proyecto_prueba.X.production.o
 __Hend_init 6 0 CODE 0 end_init -
-__end_of_main FF8 0 CODE 0 maintext dist/default/production\proyecto_prueba_.X.production.o
-_PORTD 8 0 ABS 0 - dist/default/production\proyecto_prueba_.X.production.o
-_TRISD 88 0 ABS 0 - dist/default/production\proyecto_prueba_.X.production.o
+__end_of_main FF8 0 CODE 0 maintext dist/default/production\proyecto_prueba.X.production.o
+_PORTD 8 0 ABS 0 - dist/default/production\proyecto_prueba.X.production.o
+_TRISD 88 0 ABS 0 - dist/default/production\proyecto_prueba.X.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
-__initialization FF8 0 CODE 0 cinit dist/default/production\proyecto_prueba_.X.production.o
+__initialization FF8 0 CODE 0 cinit dist/default/production\proyecto_prueba.X.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -208,7 +212,7 @@ __initialization FF8 0 CODE 0 cinit dist/default/production\proyecto_prueba_.X.p
 # All other numeric quantities are in decimal.
 %SEGMENTS
 cinit 0 7FC FF8 4 2
-maintext 0 7D4 FA8 28 2
+maintext 0 7B3 F66 49 2
 cstackCOMMON 1 70 70 3 1
 reset_vec 0 0 0 3 2
 # %NOTES Section

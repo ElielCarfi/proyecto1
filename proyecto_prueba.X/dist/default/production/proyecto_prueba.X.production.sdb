@@ -11,14 +11,14 @@
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
-"28 D:\proyecto1\proyecto_prueba .X\main_prueba.c
+"28 D:\proyecto1\proyecto_prueba.X\main_prueba.c
 [v _main main `(v  1 e 1 0 ]
 "353 D:/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f887.h
 [v _PORTD PORTD `VEuc  1 e 1 @8 ]
 "1603
 [v _TRISD TRISD `VEuc  1 e 1 @136 ]
-"28 D:\proyecto1\proyecto_prueba .X\main_prueba.c
+"28 D:\proyecto1\proyecto_prueba.X\main_prueba.c
 [v _main main `(v  1 e 1 0 ]
 {
-"37
+"41
 } 0
